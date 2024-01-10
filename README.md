@@ -71,7 +71,7 @@ for cl in conv_layers:
 
 | Prompt | Panorama | Panorama with Depth Prior |
 |--------|----------|---------------------------|
-| hdri view, japanese bedroom in the color of <blue> | ![Panorama Image](path/to/panorama_image.jpg) | ![Panorama with Depth Prior Image](path/to/panorama_depth_prior_image.jpg) |
+| hdri view, japanese bedroom in the color of blue | ![Panorama Image](output_images/1.png) | ![Panorama with Depth Prior Image](output_images/1_depth.png) |
 | Another Prompt | ![Another Panorama Image](path/to/another_panorama_image.jpg) | ![Another Panorama with Depth Prior Image](path/to/another_panorama_depth_prior_image.jpg) |
 | ...    | ...      | ...                       |
 
