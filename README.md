@@ -28,10 +28,11 @@ git clone https://github.com/replicate/cog-sdxl cog_sdxl
 - **part_1.py**: Produces Coherent 360 Panorama based on just the text prompt
 - **part_2.py**: Produces Coherent 360 Panorama based on text prompt and depth conditioning
 - **pano_depth.png** : Depth map image
+- **Panorama_Avataar**: Notebook that I used for running all these code together (Nothing different)
 
 ### Modifying prompt:
 
-Line 58 of **part_1.py** and Line 69 of **part_2.py** can be modified to change the text prompt
+Line [58](part_1.py#L58) of **part_1.py** and Line [67](part_2.py#L67) of **part_2.py** can be modified to change the text prompt
 
 ## Thought process:
 
@@ -84,7 +85,7 @@ controlnet = ControlNetModel.from_pretrained(
     torch_dtype=torch.float16,
 ).to("cuda")
 ```
-And slight modification in the inference stage, where we attach the prior image and controlnet_conditioning_scale to the pipe. Lines [66-75](part_1.py#L66-L75).
+And slight modification in the inference stage code, where we attach the prior image and controlnet_conditioning_scale to the pipe. Lines [66-75](part_1.py#L66-L75).
 ```Python
 image = load_image("/content/pano_depth.png")  # Load depth image
 controlnet_conditioning_scale = 0.5  # Recommended for good generalization
