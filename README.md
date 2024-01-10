@@ -40,7 +40,7 @@ Line [58](part_1.py#L58) of **part_1.py** and Line [67](part_2.py#L67) of **part
 To develop a seamless 360 panorama, the convolution layers of the Stable diffusion model are modified to circular padding. 
 This thread https://github.com/huggingface/diffusers/issues/556 was really helpful in understanding the underlying problem and coming up with a solution to the same.
 
-*This below implementation worked only with **diffusers==0.19.2** and below, for newer versions, this implementation did not work*
+*This below implementation worked only with **diffusers==0.19.2** and below. For newer versions, this implementation did not work*
 
 The below function is used to pad a single convolution layer asymmetrically along x-axis only. Lines [10-17](part_1.py#L10-L17).
 ```python
