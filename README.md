@@ -85,7 +85,7 @@ controlnet = ControlNetModel.from_pretrained(
     torch_dtype=torch.float16,
 ).to("cuda")
 ```
-And slight modification in the inference stage code, where we attach the prior image and controlnet_conditioning_scale to the pipe. Lines [66-75](part_1.py#L66-L75).
+Slight modification in the inference stage code, where we attach the prior image and controlnet_conditioning_scale to the pipe. Lines [66-75](part_1.py#L66-L75).
 ```Python
 image = load_image("/content/pano_depth.png")  # Load depth image
 controlnet_conditioning_scale = 0.5  # Recommended for good generalization
