@@ -101,7 +101,10 @@ images = pipe(
 
 | Prompt | Panorama | Panorama with Depth Prior |
 |--------|----------|---------------------------|
-| hdri view, japanese bedroom in the color of blue | ![Panorama Image](images/1.png) | ![Panorama with Depth Prior Image](images/1_depth.png) |
-| Another Prompt | ![Another Panorama Image](path/to/another_panorama_image.jpg) | ![Another Panorama with Depth Prior Image](path/to/another_panorama_depth_prior_image.jpg) |
-| ...    | ...      | ...                       |
+| hdri view, japanese bedroom in the color of blue | ![Panorama Image1](images/1.png) | ![Panorama with Depth Prior Image1](images/1_depth.png) |
+| hdri view, police control room in the style of cyberpunk | ![Panorama Image2](images/2.png) | ![Panorama with Depth Prior Image2](images/2_depth.png) |
+| hdri view, birthday party room, in the style of goth and gold | ![Panorama Image3](images/3.png) | ![Panorama with Depth Prior Image3](images/3_depth.png) |
+| hdri view, prison room, red floor, walls filled with graffiti | ![Panorama Image4](images/4.png) | ![Panorama with Depth Prior Image4](images/4_depth.png) |
+| hdri view, floating city bathed in sunlight, with sleek, organic architecture | ![Panorama Image5](images/5.png) | ![Panorama with Depth Prior Image5](images/5_depth.png) |
+| animated, tropical forest in anime world | ![Panorama Image6](images/6.png) | ![Panorama with Depth Prior Image6](images/6_depth.png) |
 
