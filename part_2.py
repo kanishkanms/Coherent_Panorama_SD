@@ -65,7 +65,7 @@ embhandler.load_embeddings(embedding_path)
 
 # Generate image with specified dimensions, prompt, and depth conditioning
 prompt = "hdri view, japanese bedroom in the color of <blue>"
-image = load_image("/content/pano_depth.png")  # Load depth image
+image = load_image("pano_depth.png")  # Load depth image
 controlnet_conditioning_scale = 0.5  # Recommended for good generalization
 images = pipe(
     prompt,
